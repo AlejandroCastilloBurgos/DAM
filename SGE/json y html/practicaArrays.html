@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="miCampoDeTexto" placeholder="Escribe aquí">
+    <button id="miBoton">Enviar</button>
+    <button id="miBoton2">Mostrar</button>
+
+    <!-- Puedes incluir un script de JavaScript aquí o enlazar a un archivo externo -->
+</body>
+</html>
+
+<script>
+    let array = [];
+    document.getElementsByTagName('button')[0].addEventListener('click',añadirArray);
+    document.getElementsByTagName('button')[1].addEventListener('click',mostrarArray);
+
+    function añadirArray(){
+
+        var contenido = document.getElementsByTagName('input')[0].value;
+        array.push(contenido);
+
+        document.getElementsByTagName('input')[0].value = '';
+
+        
+
+
+    }
+
+    function mostrarArray(){
+        alert(array)
+    }
+</script>

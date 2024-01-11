@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button  name="cuenta_parrafos" id="botonContar">Cuenta Párrafos</button>
+    <button name="cuenta_enlaces" id="botonContarEnlaces">Cuenta Enlaces</button>
+    <button name="numero_enlaces" id="numeroEnlaces">¿Número Enlaces?</button>
+    <button id="botonJSON">Leer JSON</button>
+
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Y este es el tercer párrafo.</p>
+    <p>Este es el cuarto párrafo.</p>
+    <p>Este es el quinto párrafo.</p>
+    <p>Y este es el sexto párrafo.</p>
+    <p>Este es el séptimo párrafo.</p>
+    <p>Este es el octavo párrafo.</p>
+    <p>Y este es el noveno párrafo.</p>
+    <a href="https://www.youtube.com/">Youtube</a>
+    <a href="https://educamadrid.webex.com/wbxmjs/joinservice/sites/educamadrid/meeting/download/e789c2043a94c9b8712b3808f4946d62?ST=SUCCESS&backUrl=https%3A%2F%2Faulavirtual33.educa.madrid.org%2Fies.juandelacierva.madrid%2Fmod%2Fwebexactivity%2Fview.php%3Fid%3D75574%26AT%3DJM%26BUFlag%3D1%26ST%3DSUCCESS%26MK%3D27341472744">educamadrid</a>
+    <a href="https://www.Google.com" id="google">google</a>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">gmail</a>
+
+    <script type="text/json" id="datosCliente">
+        {
+            "Cliente":1233,
+            "Nombre":"Pedro Ramirez",
+            "Dirección":"Calle de la piruleta 14",
+            "ultimo_pedido": 
+            {
+                "id_pedido": 2,    
+                "Productos":
+                [    
+                    {
+                        "id_producto":77, 
+                        "Nombre":"Impresora Láser", 
+                        "Fabricante":"Canon", 
+                        "Cantidad":3,
+                        "precio_uni":80
+                    },
+                    {
+                        "id_producto":22, 
+                        "Nombre":"Ratón Gamer", 
+                        "Fabricante":"Logitech", 
+                        "Cantidad":2,
+                        "precio_uni":55
+                    }    
+                ]
+            }
+        }
+    </script>
+<script>
+    document.getElementsByTagName('button')[0].addEventListener('click',contarParrafos);
+    document.getElementsByTagName('button')[1].addEventListener('click',cuentaEnlaces);
+    document.getElementsByTagName('button')[2].addEventListener('click',mostrarEnlace);
+    document.getElementsByTagName('button')[3].addEventListener('click',mostrarJSON);
+
+    function  contarParrafos() {
+        var parrafos = document.getElementsByTagName('p')
+        var numeroParrafos = parrafos.length
+
+        console.log(numeroParrafos);
+
+    }
+
+    function cuentaEnlaces(){
+        var enlaces = document.getElementsByTagName('a')
+        var numeroEnlaces = enlaces.length
+
+        alert(numeroEnlaces)
+
+    }
+
+    function mostrarEnlace() {
+
+        var enlaces = document.getElementsByTagName('a')[3]
+        alert(enlaces)
+
+    }
+
+    function mostrarJSON() {
+
+    }
+
+</script>

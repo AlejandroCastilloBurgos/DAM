@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+</head>
+<body>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido"><br><br>
+
+    <label for="edad">Edad:</label>
+    <input type="text" id="edad" name="edad"><br><br>
+
+    <label>Estado Civil:</label>
+    <input type="radio" id="soltero" name="estado_civil" value="soltero">
+    <label for="soltero">Soltero</label>
+    <input type="radio" id="casado" name="estado_civil" value="casado">
+    <label for="casado">Casado</label><br><br>
+    
+    <input type="button" value="Añadir" id="button">
+    
+    <script>
+        var arreglito = [];
+
+        document.getElementById("button").addEventListener("click", function(){
+            var nombre = document.getElementById("nombre").value;
+            var apellido = document.getElementById("apellido").value;
+            var edad = document.getElementById("edad").value;
+            var estado_civil;
+
+            if (document.getElementById("soltero").checked) {
+                estado_civil = "soltero";
+            } else if (document.getElementById("casado").checked) {
+                estado_civil = "casado";
+            }
+
+            var arrayJSON = {
+                "nombre": nombre,
+                "apellido": apellido,
+                "edad": edad,
+                "estado_civil": estado_civil,
+            };
+
+            arreglito.push(arrayJSON);
+
+            console.log(arreglito);
+        });
+    </script>
+</body>
+</html>

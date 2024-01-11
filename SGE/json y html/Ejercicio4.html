@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor"></div>
+    
+
+
+    
+
+    
+</body>
+</html>
+<script>
+var tfCaja = document.createElement("input"); // Creamos el textfield
+var rbuttxt = document.createElement("input"); // Creamos boton1
+rbuttxt.type = "radio";
+rbuttxt.name ="grupo1";
+var rbutlink = document.createElement("input"); // Boton 2
+rbutlink.type = "radio";
+rbutlink.name = "grupo1";
+var rbutimg = document.createElement("input"); // Boton 3
+rbutimg.type = "radio";
+rbutimg.name = "grupo1";
+
+var txt1 = document.createElement("label"); // Label para el boton
+txt1.innerHTML = "Enlace";
+txt1.htmlFor = "rbutlink";
+
+var txt2 = document.createElement("label"); // Label para el boton
+txt2.innerHTML = "Imagen";
+txt2.htmlFor = "rbutimg";
+
+var txt3 = document.createElement("label"); // Label para el boton
+txt3.innerHTML = "Texto";
+txt3.htmlFor = "rbuttxt";
+
+var  button = document.createElement("input"); //creamos el boton
+button.type = "submit";
+button.value = "Enviar";
+
+
+var contenedor = document.getElementById("contenedor");
+
+contenedor.appendChild(tfCaja);
+contenedor.appendChild(document.createElement("br")); // Agregamos un salto de línea
+
+contenedor.appendChild(rbuttxt);
+contenedor.appendChild(txt3);
+
+contenedor.appendChild(rbutlink);
+contenedor.appendChild(txt1);
+
+contenedor.appendChild(rbutimg);
+contenedor.appendChild(txt2);
+
+contenedor.appendChild(document.createElement("br")); // Agregamos un salto de línea
+contenedor.appendChild(button);
+
+button.addEventListener("click", function() {
+    if (rbuttxt.checked) {
+        var texto = tfCaja.value;
+        var nuevoParrafo = document.createElement("p"); //crea un parrafo nuevo en caso de que este seleccionado el radiobuttexto
+        nuevoParrafo.textContent = texto;
+        document.body.appendChild(nuevoParrafo);
+        document.body.appendChild(document.createElement("br"));
+    } else if (rbutimg.checked) {
+        var img = tfCaja.value;
+        var nuevaImagen = document.createElement("img"); //crea la imagen en caso de radiobutimg
+        nuevaImagen.src = img;
+        document.body.appendChild(nuevaImagen);
+        document.body.appendChild(document.createElement("br"));
+    } else if (rbutlink.checked) {
+        var link = tfCaja.value;
+        var nuevoEnlace = document.createElement("a"); //crea el link en caso de radiolink
+        nuevoEnlace.href = link;
+        nuevoEnlace.textContent = "Enlace";
+        document.body.appendChild(nuevoEnlace);
+        document.body.appendChild(document.createElement("br"));
+    }
+});
+
+
+
+
+
+
+
+    
+    
+   
+ 
+
+
+
+</script>

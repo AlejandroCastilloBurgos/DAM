@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <input type='text' name="texto">
+    <input type="button" value="arriba">
+    <input type="button" value="debajo" id="debajo">
+    <ul id="lista">
+       <li> pepe</li>
+       <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+        <li> pepe</li>
+    </ul>
+    <script>
+        document.getElementById("debajo").addEventListener('click', insertarDebajo);
+        document.querySelector('input[value="arriba"]').addEventListener('click', insertarArriba)
+
+        function insertarDebajo() {
+            var campoTexto = document.querySelector('[name="texto"]');
+            var escribir = campoTexto.value; // "value" debe ir en minúsculas
+            document.getElementById("lista").innerHTML('<li>' + escribir + '</li>');
+        }
+
+        function insertarArriba() {
+            var campoTexto2 = document.querySelector('[name="texto"]');
+            var escribir2 = campoTexto2.value;
+            document.getElementById("lista").insertAdjacentHTML('afterbegin', '<li>' + escribir2 + '</li>');
+        }
+
+
+    </script>
+</body>
+</html>

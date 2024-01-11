@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Párrafo</title>
+</head>
+<body>
+    <input type="button" id="boton" value="Cambiar parrafo">
+
+    <h1>Título de la Página</h1>
+    <p1>Este es un párrafo de texto. Puedes escribir aquí cualquier cosa que desees comunicar en tu página web.</p1>
+
+<p2>Este es un párrafo de texto. Puedes escribir aquí cualquier cosa que desees comunicar en tu página web.</p2>
+
+</body>
+</html>
+
+<script>
+    function cambia_parrafo(){
+        var cambio = document.getElementById(p);
+        cambio.innerText = prompt("Mete el parrafo que te de la puta gana")
+
+    }
+document.getElementById("boton").addEventListener("click",cambia_parrafo);

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <input type="text" value="Nombre">
+    <input type="text" value="Apellido">
+        <input type="checkbox" value="Azul">Azul</input>
+        <input type="checkbox" value="Rojo">Rojo</input>
+        <input type="checkbox" value="Verde">Verde</input>
+    <input type="button" value="enviar">
+    
+</body>
+</html>
+
+<script>
+    document.getElementsByTagName('input')[5].addEventListener('click', comprobarVacios);
+
+    function comprobarVacios() {
+    var cadena1 = document.getElementsByTagName('input')[0].value;
+    var cadena2 = document.getElementsByTagName('input')[1].value;
+    let cadenafinal = cadena1.length;
+
+    var checkbox1 = document.getElementsByTagName('input')[2];
+    var checkbox2 = document.getElementsByTagName('input')[3];
+    var checkbox3 = document.getElementsByTagName('input')[4];
+
+    let cont = 0;
+
+    if (checkbox1.checked) {
+        cont++;
+    }
+
+    if (checkbox2.checked) {
+        cont++;
+    }
+
+    if (checkbox3.checked) {
+        cont++;
+    }
+
+    if (cont === 0) {
+        alert("Marca al menos una casilla de verificación");
+    }
+
+    if (cadena1 === '') {
+        alert("No puede haber espacios vacíos");
+    }
+    if (cadenafinal < 5 || cadenafinal > 50) {
+    alert("La longitud del Nombre debe estar entre 5 y 50 caracteres");
+}
+
+
+
+    if (cadena2 === '') {
+        alert("No puede haber espacios vacíos");
+    }
+}
+
+</script>
+

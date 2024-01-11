@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+let palabras = []; // Creamos un array vacío para almacenar las palabras
+
+while (true) {
+    let palabra = prompt("Ingresa una palabra o escribe 'fin' para terminar:");
+
+    if (palabra === 'fin') {
+        if (confirm("¿Estás seguro de que quieres continuar?")) {
+            alert("¡Has elegido continuar!");
+        } else {
+            alert("Has cancelado la operación.");
+            break; // Si el usuario escribe 'fin', salimos del bucle
+        }
+    } else {
+        palabras.push(palabra); // Añadimos la palabra al array
+    }
+}
+
+if (palabras.length > 0) {
+    alert("Las palabras que ingresaste son: " + palabras.join(', '));
+} else {
+    alert("No ingresaste ninguna palabra.");
+}
+
+</script>
+

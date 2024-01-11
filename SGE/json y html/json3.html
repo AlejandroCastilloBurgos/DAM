@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Vehículos</title>
+</head>
+<body>
+    <button id="añadirDatos">Añadir Datos</button>
+    <ul id="listaDatos"></ul>
+    
+    <script>
+        const botonAñadirDatos = document.getElementById("añadirDatos");
+        const listaDatos = document.getElementById("listaDatos");
+
+        // Definir el arreglo de vehículos
+        vehiculo = [
+            {
+                "Marca":"Opel",
+                "Modelo":"Corsa",
+                "Tipo":"Coche",
+                "Caballos":90+"cv",
+                "color":"Gris Perla",
+                "CambioAceite":[{13000:"kms",30:"Euros"},
+                                {34000:"kms",34:"Euros"}]
+            },
+            {   
+                "Marca":"BMW",
+                "Modelo":"Serie 1",
+                "Tipo":"Coche",
+                "Caballos":135+"cv",
+                "color":"Gris Perla",
+                "CambioAceite":[{11000:"kms",38:"Euros"},
+                                {38030:"kms",45:"Euros"}]
+            },
+        ]
+
+        // Manejar el evento de clic en el botón "Añadir Datos"
+        botonAñadirDatos.addEventListener("click", function() {
+            for (const datos of vehiculo) {
+                const nuevoElemento = document.createElement("li");
+                nuevoElemento.textContent = `Marca: ${datos.Marca}, Modelo: ${datos.Modelo}, Tipo: ${datos.Tipo}, Caballos: ${datos.Caballos}, color: ${datos.color}, CambioAceite: ${JSON.stringify(datos.CambioAceite)}`;
+                
+                listaDatos.appendChild(nuevoElemento);
+            }
+        });
+    </script>
+</body>
+</html>

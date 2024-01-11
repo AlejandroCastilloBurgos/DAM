@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiar Enlaces</title>
+</head>
+<body>
+    <button onclick="copiarEnlaces()">Copiar Enlaces</button>
+    <div id="contenedor"></div>
+    <li><a href="https://www.youtube.com/">Youtube</a></li>
+    <li><a href="https://educamadrid.webex.com/wbxmjs/joinservice/sites/educamadrid/meeting/download/e789c2043a94c9b8712b3808f4946d62?ST=SUCCESS&backUrl=https%3A%2F%2Faulavirtual33.educa.madrid.org%2Fies.juandelacierva.madrid%2Fmod%2Fwebexactivity%2Fview.php%3Fid%3D75574%26AT%3DJM%26BUFlag%3D1%26ST%3DSUCCESS%26MK%3D27341472744">educamadrid</a></li>
+    <li><a href="https://www.Google.com" id="google">google</a></li>
+    <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">gmail</a></li>
+    <script>
+        function copiarEnlaces() {
+            var enlaces = [
+                "https://www.ejemplo1.com",
+                "https://www.ejemplo2.com",
+                "https://www.ejemplo3.com"
+            ];
+            var contenedor = document.getElementById("contenedor3");
+
+            for (var i = 0; i < enlaces.length; i++) {
+                var nuevoEnlace = document.createElement("a");
+                nuevoEnlace.href = enlaces[i];
+                nuevoEnlace.textContent = "Enlace " + (i + 1);
+                var saltoDeLinea = document.createElement("br");
+
+                contenedor.appendChild(nuevoEnlace);
+                contenedor.appendChild(saltoDeLinea);
+            }
+        }
+    </script>
+</body>
+</html>

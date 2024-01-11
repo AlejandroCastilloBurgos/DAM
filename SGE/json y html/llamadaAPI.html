@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="campoCiudad" placeholder="ciudad">
+    <input type="text" id="campoDias" placeholder="cantidad de dias">
+    <button id="botonBusqueda">Haz clic</button>
+	
+    <table border="1" id="tablaPokemon">
+        <tr>
+            <th>Ciudad</th>
+            <th>Pais</th>
+            <th>Fecha actual</th>
+            <th>Clima</th>
+            <th>Imagen Clima</th>
+            <th>Viento</th>
+            <th>Precipitacion</th>
+			<th>Humedad</th>
+			<th>Sensacion Termica</th>
+        </tr>
+    </table>
+
+    <script>
+        let tabla = document.getElementById("tablaPokemon");
+
+        // Agregar una fila
+        function agregarFila(celdas) {
+            let fila = document.createElement("tr");
+            celdas.forEach(celda => {
+                let td = document.createElement("td");
+                if (Array.isArray(celda)) {
+                    let ul = document.createElement("ul");
+                    celda.forEach(item => {
+                        let li = document.createElement("li");
+                        li.textContent = item;
+                        ul.appendChild(li);
+                    });
+                    td.appendChild(ul);
+                } else if (typeof celda === 'object') {
+                    td.textContent = JSON.stringify(celda);
+                } else if (typeof celda === 'string' && celda.endsWith('png"')) {
+                    let img = document.createElement('img');
+                    img.src = celda;
+                    img.style.maxWidth = '100px';
+                    td.appendChild(img);
+                } else {
+                    td.textContent = celda;
+                }
+                fila.appendChild(td);
+            });
+            tabla.appendChild(fila);
+        }
+
+        document.getElementById("botonBusqueda").addEventListener("click", async function() {
+            var var1 = document.getElementById("campoCiudad").value.toLowerCase();
+            var var2 = parseInt(document.getElementById("campoDias").value);
+
+            const url = 'https://weatherapi-com.p.rapidapi.com/forecast.json?q='+var1+'&days='+var2;
+            const options = {
+                method: 'GET',
+                headers: {
+                    'X-RapidAPI-Key': 'c003eace1dmsha982b630059f77ep17818ejsnec1ed1c7de60',
+                    'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+                }
+            };
+
+            try {
+                const response = await fetch(url, options);
+                const data = await response.json();
+                // Añade location
+                var location = data.location.name;
+                // Añade Pais
+                var country = data.location.country;
+                // Añade localtime
+                var localTime = data.location.localtime;
+                // Añade text
+                var estado = data.current.condition.text;
+				// Añade dibujo
+				var dibujo = data.current.condition.icon;
+				//vientoporh
+				var viento = data.current.condition.wind_kph;
+				//Precipitacion
+				var precipitacion = data.current.condition.precip_in;
+				//humedad
+				var humedad = data.current.condition.humidity;
+				//sensacion termica
+				var sensacion =data.current.condition.feelslike_c;
+
+
+
+                agregarFila([location, country, localTime, estado, dibujo, viento, precipitacion, humedad, sensacion]);
+
+                console.log(data);
+            } catch (error) {
+                console.error(error);
+            }
+        });	
+    </script>
+</body>
+</html>

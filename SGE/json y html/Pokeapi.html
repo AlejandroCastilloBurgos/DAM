@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Pokémon</title>
+</head>
+<body>
+    <input type="text" id="campoPokemon" placeholder="Escribe el pokemon que desea buscar...">
+    <button id="botonBusqueda">Haz clic</button>
+
+    <table border="1" id="tablaPokemon">
+        <tr>
+            <th>Nombre del Pokemon</th>
+            <th>Imagen</th>
+            <th>Version Shiny</th>
+            <th>Estadisticas</th>
+            <th>Numero</th>
+            <th>Movimientos</th>
+            <th>Tipos</th>
+        </tr>
+    </table>
+
+    <script>
+        
+            document.getElementById("botonBusqueda").addEventListener("click", function() {
+                var poke = document.getElementById("campoPokemon").value.toLowerCase();
+
+                fetch('https://pokeapi.co/api/v2/pokemon/' + poke)
+                    .then(response => response.json())
+                    .then(data => sacarDatos(data));
+            });
+
+            function sacarDatos(datos) {
+                let tabla = document.getElementById("tablaPokemon");
+
+                // Agregar una fila
+                function agregarFila(celdas) {
+                    let fila = document.createElement("tr");
+                    celdas.forEach(celda => {
+                        let td = document.createElement("td");
+                        if (Array.isArray(celda)) {
+                            let ul = document.createElement("ul");
+                            celda.forEach(item => {
+                                let li = document.createElement("li");
+                                li.textContent = item;
+                                ul.appendChild(li);
+                            });
+                            td.appendChild(ul);
+                        } else if (typeof celda === 'object') {
+                            td.textContent = JSON.stringify(celda);
+                        } else if (typeof celda === 'string' && celda.startsWith('http')) {
+                            let img = document.createElement('img');
+                            img.src = celda;
+                            img.style.maxWidth = '100px';
+                            td.appendChild(img);
+                        } else {
+                            td.textContent = celda;
+                        }
+                        fila.appendChild(td);
+                    });
+                    tabla.appendChild(fila);
+                }
+
+                // Añade nombre
+                var nombrePokemon = datos.name;
+
+                // Añade sprite
+                var sprite = datos.sprites.front_default;
+
+                // Shiny version
+                var shiny = datos.sprites.front_shiny;
+
+                // Añadir nombres de estadísticas
+                var estadisticas = datos.stats.map(stats => stats.stat.name);
+
+                // Añadir numero estadisticas
+                var numEstadisticas = datos.stats.map(stats => stats.base_stat);
+
+                // Añadir detalles de movimientos
+                var movimientosPokemon = datos.moves.slice(0, 5).map(move => move.move.name);
+
+                // Añadir detalles de tipos
+                var tiposPokemon = datos.types.map(types => types.type.name);
+
+                agregarFila([nombrePokemon, sprite, shiny, estadisticas, numEstadisticas, movimientosPokemon, tiposPokemon]);
+            }
+        ;
+    </script>
+</body>
+</html>
