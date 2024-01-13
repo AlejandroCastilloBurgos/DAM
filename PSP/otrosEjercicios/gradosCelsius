@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // Declaración de variables
+    char input[50]; // Se elige un tamaño arbitrario para el buffer de entrada
+    float celsius, fahrenheit;
+
+    // Solicitar al usuario que ingrese la temperatura en grados Celsius
+    printf("Ingrese la temperatura en grados Celsius: ");
+
+    // Utilizar fgets para leer la entrada como cadena
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        // Manejar un error si no se puede leer la entrada
+        printf("Error: No se pudo leer la entrada.\n");
+        return 1; // Salir con un código de error
+    }
+
+    // Utilizar atof para convertir la cadena a un número de punto flotante
+    celsius = atof(input);
+
+    // Aplicar la fórmula de conversión a grados Fahrenheit
+    fahrenheit = (celsius * 9/5) + 32;
+
+    // Mostrar la temperatura en grados Fahrenheit
+    printf("%.2f grados Celsius son %.2f grados Fahrenheit.\n", celsius, fahrenheit);
+
+    return 0; // Salir con éxito
+}
