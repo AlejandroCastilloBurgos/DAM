@@ -1,0 +1,30 @@
+total 144
+-rwxrwxr-x 1 casti casti 16080 Jan 16 10:43 ej1
+-rw-rw-r-- 1 casti casti   729 Jan 16 10:43 ej1.c
+-rwxrwxr-x 1 casti casti 16408 Jan 16 10:44 ej2
+-rw-rw-r-- 1 casti casti  1604 Jan 16 10:44 ej2.c
+-rwxrwxr-x 1 casti casti 16760 Jan 16 10:59 ejercicioChatGPT
+-rwxrwxr-x 1 casti casti 16488 Jan 16 10:59 ejercicioChatGPT2
+-rw-rw-r-- 1 casti casti  1116 Jan 16 10:57 ejercicioChatGPT2.c
+-rwxrwxr-x 1 casti casti 16696 Jan 16 11:00 ejercicioChatGPT3
+-rw-rw-r-- 1 casti casti  2200 Jan 16 10:57 ejercicioChatGPT3.c
+-rw-rw-r-- 1 casti casti  3633 Jan 16 10:56 ejercicioChatGPT.c
+-rw-rw-r-- 1 casti casti  1903 Jan 16 10:57 ejercicioNacho.c
+-rwxrwxr-x 1 casti casti 16416 Jan 16 11:50 mio1
+-rw-rw-r-- 1 casti casti  1917 Jan 16 11:50 mio1.c
+    PID    PGID     SID TTY          TIME CMD
+  21783   21782   11690 pts/0    00:00:00 ruletaRusa
+  21784   21782   11690 pts/0    00:00:00 ruletaRusa
+  21785   21782   11690 pts/0    00:00:00 ruletaRusa
+  22028   21782   11690 pts/0    00:00:00 ruletaRusa
+  22029   21782   11690 pts/0    00:00:00 ruletaRusa
+  22030   21782   11690 pts/0    00:00:00 ruletaRusa
+  22031   21782   11690 pts/0    00:00:00 ruletaRusa
+  22032   21782   11690 pts/0    00:00:00 ruletaRusa
+  22033   21782   11690 pts/0    00:00:00 ruletaRusa
+  22087   22071   11690 pts/0    00:00:00 ruletaRusa
+  22088   22071   11690 pts/0    00:00:00 ruletaRusa
+  22089   22071   11690 pts/0    00:00:00 ruletaRusa
+  22090   22071   11690 pts/0    00:00:00 ruletaRusa
+  29471   29471   11690 pts/0    00:00:00 mio2
+  29472   29471   11690 pts/0    00:00:00 ps
