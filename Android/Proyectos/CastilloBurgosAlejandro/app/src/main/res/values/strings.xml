@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ejerciciosMultiactividad</string>
+
+
+    <string name="volver">VOLVER</string>
+    <string name="fechaIda">Fecha ida</string>
+    <string name="fechaVuelta">Fecha vuelta</string>
+    <string name="nombre">Nombre</string>
+    <string name="dni">DNI</string>
+    <string name="direccion">Direccion Recogida</string>
+    <string name="horaIda">Hora ida</string>
+    <string name="horaVuelta">Hora vuelta</string>
+    <string name="ciudadDestino">Destino</string>
+    <string name="ida">ida</string>
+    <string name="idayvuelta">ida y vuelta</string>
+    <string name="ciudadIda">ciudad ida</string>
+    <string name="ciudadVuelta">ciudad vuelta</string>
+    <string name="resetear">resetear</string>
+
+
+    <string-array name="array_ciudades">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Zaragoza</item>
+        <item>Sevilla</item>
+        <item>Malaga</item>
+        <item>Murcia</item>
+        <item>Palma de Mallorca</item>
+        <item>Palmas de gran canaria</item>
+        <item>Alicante</item>
+    </string-array>
+
+
+    <string-array name="spHeladeria">
+        <item>cucurucho</item>
+        <item>cucu.choco</item>
+        <item>tarrina</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

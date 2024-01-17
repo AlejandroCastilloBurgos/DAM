@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        <permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="ReservedSystemPermission" />
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.WEB_SEARCH" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SET_ALARM" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EjerciciosMultiactividad"
+        tools:targetApi="31">
+        <activity
+            android:name=".introFragments"
+            android:exported="false" />
+        <activity
+            android:name=".EnvioViaje"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".ReciboViaje"
+            android:exported="false" />
+        <activity
+            android:name=".Viajero"
+            android:exported="false" />
+        <activity
+            android:name=".pingpong"
+            android:exported="false"/>
+        <activity
+            android:name=".configuraMonstruo"
+            android:exported="false" />
+        <activity
+            android:name=".comunicacionFragmentsContador"
+            android:exported="false" />
+        <activity
+            android:name=".fragmentsContador"
+            android:exported="false" />
+        <activity
+            android:name=".intentImplicitos"
+            android:exported="false" />
+        <activity
+            android:name=".Monstruo"
+            android:exported="false" />
+        <activity
+            android:name=".monstruoB"
+            android:exported="false" />
+        <activity
+            android:name=".monstruoA"
+            android:exported="true" />
+        <activity
+            android:name=".metalSlugElegirArma"
+            android:exported="false" />
+        <activity
+            android:name=".metalSlugElegirPersonaje"
+            android:exported="false" />
+        <activity
+            android:name=".metalSlugA"
+            android:exported="true" />
+        <activity
+            android:name=".entradaTextoB"
+            android:exported="false" />
+        <activity
+            android:name=".entradaTextoA"
+            android:exported="false" />
+        <activity
+            android:name=".fibonacciB"
+            android:exported="false" />
+        <activity
+            android:name=".fibonacciA"
+            android:exported="false" />
+        <activity
+            android:name=".heladeriaB"
+            android:exported="false" />
+        <activity
+            android:name=".heladeriaA"
+            android:exported="false" />
+        <activity
+            android:name=".calculadora2"
+            android:exported="false" />
+        <activity
+            android:name=".calculadora1"
+            android:exported="false" />
+        <activity
+            android:name=".calentamientoB"
+            android:exported="false" />
+        <activity
+            android:name=".calentamientoA"
+            android:exported="false" />
+    </application>
+
+</manifest>

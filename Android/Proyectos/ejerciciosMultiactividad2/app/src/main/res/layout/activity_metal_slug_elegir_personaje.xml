@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    tools:context=".metalSlugElegirPersonaje">
+
+    <TextView
+        android:id="@+id/tvPersonaje1"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="100dp"
+        android:text="Marco"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPersonaje3"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:text="Tarma"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/u3a7aidimgbtMarco"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/u3a7aidimgbtMarco"
+        app:layout_constraintTop_toBottomOf="@+id/u3a7aidimgbtMarco" />
+
+    <TextView
+        android:id="@+id/tvPersonaje4"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="92dp"
+        android:text="Fio"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPersonaje3"
+        app:layout_constraintStart_toEndOf="@+id/tvPersonaje3"
+        app:layout_constraintTop_toTopOf="@+id/tvPersonaje3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPersonaje2"
+        android:layout_width="107dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="92dp"
+        android:text="Eri"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPersonaje1"
+        app:layout_constraintStart_toEndOf="@+id/tvPersonaje1"
+        app:layout_constraintTop_toTopOf="@+id/tvPersonaje1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="317dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:text="Selecciona jugador"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/u3a7aidimgbtMarco"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/tvPersonaje1"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/tvPersonaje1"
+        app:layout_constraintTop_toBottomOf="@+id/tvPersonaje1"
+        app:srcCompat="@drawable/marco" />
+
+    <ImageButton
+        android:id="@+id/u3a7aidimgbtTarma"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/tvPersonaje3"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/tvPersonaje3"
+        app:layout_constraintTop_toBottomOf="@+id/tvPersonaje3"
+        app:srcCompat="@drawable/tarma" />
+
+    <ImageButton
+        android:id="@+id/u3a7aidimgbtFio"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/tvPersonaje4"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/tvPersonaje4"
+        app:layout_constraintTop_toBottomOf="@+id/tvPersonaje4"
+        app:srcCompat="@drawable/fio" />
+
+    <ImageButton
+        android:id="@+id/u3a7aidimgbtEri"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/tvPersonaje2"
+        app:layout_constraintStart_toStartOf="@+id/tvPersonaje2"
+        app:layout_constraintTop_toBottomOf="@+id/tvPersonaje2"
+        app:srcCompat="@drawable/eri" />
+
+    <Button
+        android:id="@+id/u3a7bidbtLimpiar"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#FF0000"
+        android:text="Limpiar"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/u3a7aidimgbtFio"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/u3a7aidimgbtTarma"
+        app:layout_constraintTop_toBottomOf="@+id/u3a7aidimgbtTarma" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
