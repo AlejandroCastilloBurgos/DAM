@@ -1,0 +1,17 @@
+    Notificaciones con notifyAll(): El uso de notifyAll() y wait() es apropiado para la sincronización de los hilos en este escenario. 
+    Esto asegura que todos los corredores se despierten cuando se da la señal de salida y que el hilo principal espere hasta que al menos un corredor haya llegado a la meta.
+
+    Manejo de Interrupciones: En tu código, manejas las interrupciones para detectar cuándo un corredor ha quedado atrapado y no ha llegado a la meta. 
+    Esto es una buena práctica, pero sería útil imprimir un mensaje cuando se detecta la interrupción para informar sobre la situación.
+
+    Objeto de Llegada: El uso de un objeto (llegada) para la llegada y notificación de los corredores es una buena práctica. 
+    Asegura que el hilo principal espere hasta que al menos un corredor haya llegado a la meta antes de interrumpir a los demás.
+
+    ArrayList para Hilos: Utilizar un ArrayList para almacenar los hilos es una buena manera de gestionar múltiples hilos dinámicamente. 
+    Sin embargo, ten en cuenta que puedes necesitar sincronización adicional si manipulas la lista después de iniciar los hilos.
+
+    Tiempo de Espera Inicial: Tienes una pausa (Thread.sleep(Corredor.TIEMPO_ESPERA)) antes de notificar a los corredores. 
+    Esto puede no ser necesario, ya que podrías notificarlos inmediatamente después de iniciar los hilos.
+
+    Nombres de Variables Descriptivos: Los nombres de las variables (salida, llegada) son descriptivos y ayudan a entender su propósito. 
+    Sin embargo, puedes considerar hacerlos finales, ya que no parecen cambiar después de la inicialización.

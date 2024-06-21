@@ -1,0 +1,7 @@
+com\mycompany\persistenciamodulo\PersistenciaModulo.class
+com\mycompany\persistenciamodulo\Modulo.class
+com\mycompany\persistenciamodulo\exceptions\IllegalOrphanException.class
+com\mycompany\persistenciamodulo\Modulo_.class
+com\mycompany\persistenciamodulo\exceptions\NonexistentEntityException.class
+com\mycompany\persistenciamodulo\exceptions\PreexistingEntityException.class
+com\mycompany\persistenciamodulo\ModuloJpaController.class

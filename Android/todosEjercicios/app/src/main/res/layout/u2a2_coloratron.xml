@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".u2.curso.u2.u2a2Coloratron">
+
+    <TextView
+        android:id="@+id/u2a2tvSalida1"
+        android:layout_width="410dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="40dp"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2sbB" />
+
+    <Button
+        android:id="@+id/u2a2btProducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Mostrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2sh1"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <Switch
+        android:id="@+id/u2a2sh1"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Blanco/Negro"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2tvSalida1" />
+
+    <SeekBar
+        android:id="@+id/u2a2sbG"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="88dp"
+        android:max="250"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2sbR" />
+
+    <TextView
+        android:id="@+id/u2a2tvB"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:text="B"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/u2a2sbG"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2tvG" />
+
+    <SeekBar
+        android:id="@+id/u2a2sbR"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="88dp"
+        android:max="250"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2tvSalida2" />
+
+    <TextView
+        android:id="@+id/u2a2tvG"
+        android:layout_width="26dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="G"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/u2a2sbG"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2tvR" />
+
+    <SeekBar
+        android:id="@+id/u2a2sbB"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="88dp"
+        android:max="250"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2sbG" />
+
+    <TextView
+        android:id="@+id/u2a2tvR"
+        android:layout_width="26dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:text="R"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/u2a2sbR"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2tvSalida2" />
+
+    <EditText
+        android:id="@+id/u2a2etEntrada1"
+        android:layout_width="410dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Introduce tu nombre"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/u2a2tvSalida2"
+        android:layout_width="80dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2etEntrada1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

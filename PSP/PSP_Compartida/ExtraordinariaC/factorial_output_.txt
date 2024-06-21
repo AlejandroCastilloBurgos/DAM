@@ -1,0 +1,11 @@
+Hijo 1 (PID 5448) encontro factorial. el factorial 0 es: 1
+Hijo 2 (PID 5449) encontro factorial. el factorial 2 es: 2
+Hijo 1 (PID 5448) encontro factorial. el factorial 1 es: 1
+Hijo 2 (PID 5449) encontro factorial. el factorial 3 es: 6
+Hijo 4 (PID 5451) encontro factorial. el factorial 6 es: 720
+Hijo 4 (PID 5451) encontro factorial. el factorial 7 es: 5040
+Hijo 4 (PID 5451) encontro factorial. el factorial 8 es: 40320
+Hijo 4 (PID 5451) encontro factorial. el factorial 9 es: 362880
+Hijo 4 (PID 5451) encontro factorial. el factorial 10 es: 3628800
+Hijo 3 (PID 5450) encontro factorial. el factorial 4 es: 24
+Hijo 3 (PID 5450) encontro factorial. el factorial 5 es: 120

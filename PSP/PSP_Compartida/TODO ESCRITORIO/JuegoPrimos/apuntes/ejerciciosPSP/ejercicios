@@ -1,0 +1,210 @@
+
+    Escribe un programa que lea cadenas desde la entrada estándar hasta escribir un *. Escribe otro programa que ejecute el anterior. (2,5 puntos) ----> en C
+//lector 
+#include <stdio.h>
+
+int main() {
+    char cadena[100];
+
+    printf("Introduce cadenas (ingresa '*' para finalizar):\n");
+
+    while (1) {
+        fgets(cadena, sizeof(cadena), stdin);
+
+        if (cadena[0] == '*') {
+            break;
+        }
+
+        printf("Cadena ingresada: %s", cadena);
+    }
+
+    printf("Programa lector ha finalizado.\n");
+
+    return 0;
+}
+//ejecutor
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    FILE *fp;
+
+    // Ejecutar el programa lector
+    fp = popen("./lector", "w");
+
+    if (fp == NULL) {
+        perror("Error al abrir el proceso lector");
+        exit(EXIT_FAILURE);
+    }
+
+    // Cerrar el flujo de escritura para indicar el final al programa lector
+    fclose(fp);
+
+    printf("Programa ejecutor ha finalizado.\n");
+
+    return 0;
+}
+
+
+
+    Modifica el programa anterior para que al ejecutar el programa la entrada al proceso se obtenga a partir de un fichero de texto. (1,5 puntos)
+
+#include <stdio.h>
+
+int main() {
+    char cadena[100];
+
+    printf("Introduce cadenas (ingresa '*' para finalizar):\n");
+
+    while (1) {
+        fgets(cadena, sizeof(cadena), stdin);
+
+        if (cadena[0] == '*') {
+            break;
+        }
+
+        printf("Cadena ingresada: %s", cadena);
+    }
+
+    printf("Programa lector ha finalizado.\n");
+
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    FILE *fp;
+
+    // Crear un archivo de texto con las cadenas de entrada
+    FILE *archivoEntrada = fopen("entrada.txt", "w");
+    if (archivoEntrada == NULL) {
+        perror("Error al abrir el archivo de entrada");
+        exit(EXIT_FAILURE);
+    }
+
+    fprintf(archivoEntrada, "Hola\n");
+    fprintf(archivoEntrada, "Mundo\n");
+    fprintf(archivoEntrada, "*\n");
+
+    fclose(archivoEntrada);
+
+    // Ejecutar el programa lector con la entrada redirigida desde el archivo
+    fp = popen("./lector", "r");
+    if (fp == NULL) {
+        perror("Error al abrir el proceso lector");
+        exit(EXIT_FAILURE);
+    }
+
+    // Redirigir la entrada estándar al archivo
+    dup2(fileno(fp), fileno(stdin));
+
+    // Cerrar el flujo de lectura para indicar el final al programa lector
+    fclose(fp);
+
+    printf("Programa ejecutor ha finalizado.\n");
+
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+//lector java
+import java.util.Scanner;
+
+public class Lector {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String cadena;
+
+        System.out.println("Introduce cadenas (ingresa '*' para finalizar):");
+
+        while (true) {
+            cadena = scanner.nextLine();
+
+            if (cadena.equals("*")) {
+                break;
+            }
+
+            System.out.println("Cadena ingresada: " + cadena);
+        }
+
+        System.out.println("Programa lector ha finalizado.");
+    }
+}
+//ejecutor java
+import java.io.IOException;
+
+public class Ejecutor {
+    public static void main(String[] args) {
+        try {
+            // Ejecutar el programa lector
+            Process procesoLector = new ProcessBuilder("java", "Lector").start();
+            
+            // Esperar a que el programa lector termine
+            int exitCode = procesoLector.waitFor();
+            
+            System.out.println("Programa ejecutor ha finalizado con código de salida: " + exitCode);
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+//version modificada lector
+
+import java.util.Scanner;
+
+public class Lector {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String cadena;
+
+        System.out.println("Introduce cadenas (ingresa '*' para finalizar):");
+
+        while (true) {
+            cadena = scanner.nextLine();
+
+            if (cadena.equals("*")) {
+                break;
+            }
+
+            System.out.println("Cadena ingresada: " + cadena);
+        }
+
+        System.out.println("Programa lector ha finalizado.");
+    }
+}
+//version modificada ejector
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Ejecutor {
+    public static void main(String[] args) {
+        try {
+            // Crear un archivo de texto con las cadenas de entrada
+            ProcessBuilder pb = new ProcessBuilder("java", "Lector");
+            pb.redirectInput(ProcessBuilder.Redirect.from(new FileReader("entrada.txt")));
+
+            // Ejecutar el programa lector con la entrada redirigida desde el archivo
+            Process procesoLector = pb.start();
+
+            // Esperar a que el programa lector termine
+            int exitCode = procesoLector.waitFor();
+
+            System.out.println("Programa ejecutor ha finalizado con código de salida: " + exitCode);
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+COMPILAR SSL 
+
+gcc -o ejemplo_ssl ejemplo_ssl.c -lssl -lcrypto
+
+
+

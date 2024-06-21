@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="ReservedSystemPermission" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.WEB_SEARCH" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SET_ALARM" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android:usesCleartextTraffic=true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TodosEjercicios"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ut07.DestinoApi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ut07.dataExtraordinaria.ServiceDestino"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataExtraordinaria.DestinoRepo"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataExtraordinaria.Destino"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.ServicioApiDestinos"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.RepoDestino"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.DestinoViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.DestinosAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.Destino"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Ej2.MainDestinos"
+            android:exported="false"/>
+        <activity
+            android:name=".ut02.Ejercicio1BExtraordinaria"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ut02.Ejercicio1Extraordinaria"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".ut01.Utils"
+            android:exported="false" />
+        <activity
+            android:name=".ut01.DNITEST"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.Armas"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.Armamentos"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.ArmamentoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PredictExamenExtraordinaria1B"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PredictExamenExtraordinaria1"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PresupuestoFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PrincipalOrdinaria1TB"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PrincipalOrdinaria1T"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.CryptoApi"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataApiExamen.ServiceCryptomoneda"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataApiExamen.CryptomonedaRepo"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataApiExamen.Cryptomoneda"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.Ejercicio1Examen2TViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.Ejercicio1Examen2T"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.ParesNonesViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.ParesNones"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataPokemon.ServicePokemon"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataPokemon.PokemonRepo"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.dataPokemon.Pokemon"
+            android:exported="false" />
+        <activity
+            android:name=".ut07.PokeApi"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.sumadenumerosViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.sumadenumeros"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.numeroaleatorioViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ut06.numeroaleatorio"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.EstadiosAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.EstadiosFutbol"
+            android:exported="false" />
+        <activity
+            android:name=".ut05.ListaEstadios"
+            android:exported="false" />
+        <activity
+            android:name=".ut04.EjercicioPruebaPermisos"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.EjercicioInventado"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.EjercicioInventadoFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.Ejercicio2Examen1T"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PasajerosFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.Ejercicio1Examen1TB"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.Ejercicio1Examen1T"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.PinponPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.FragmentPinpon"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.ContadorPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".ut03.CountFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Actividad9"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.Monstruo"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.MonstruoB"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.MonstruoA"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.AnalisisTextoB"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.AnalisisTextoA"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.FibonacciB"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.FibonacciA"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.HeladoB"
+            android:exported="false" />
+        <activity
+            android:name=".ut02.HeladoA"
+            android:exported="false" />
+        <activity
+            android:name=".ut01.piedraPapelTijera"
+            android:exported="false" />
+        <activity
+            android:name=".ut01.citatron"
+            android:exported="false" />
+        <activity
+            android:name=".ut01.propinatron"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
