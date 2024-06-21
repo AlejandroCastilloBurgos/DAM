@@ -1,0 +1,462 @@
+[
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_helado.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_helado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_peliculas.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_peliculas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_predict_examen_extraordinaria1.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_predict_examen_extraordinaria1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_practicar_dragonball_holder.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\practicar_dragonball_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destino.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destino.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_extraordinaria.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_extraordinaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_piedra_papel_tijera.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_piedra_papel_tijera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_bextraordinaria.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_bextraordinaria.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_genera_ejercito.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_genera_ejercito.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_cuadro_a2.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_cuadro_a2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_cryptomoneda.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_cryptomoneda.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_sumadenumeros_view_model.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_sumadenumeros_view_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_presupuesto_fragment.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_presupuesto_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_actores.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_actores.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destino2.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destino2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_pares_nones.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_pares_nones.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_monstruo_b.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_monstruo_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_monstruo.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_monstruo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_numeroaleatorio.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_numeroaleatorio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\drawable_paper.PNG.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\drawable\\paper.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_poke_api.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_poke_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_main_atracciones.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\main_atracciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destino_repo.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destino_repo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_repo_destino.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_repo_destino.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_principal_ordinaria1_t.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_principal_ordinaria1_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_pinpon_principal.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_pinpon_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_service_destino.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_service_destino.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_armas.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_armas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_u2a2_coloratron.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\u2a2_coloratron.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_atracciones.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_atracciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_estadios_adapter.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_estadios_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio_prueba_permisos.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio_prueba_permisos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_actores_detalles.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_actores_detalles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_lista_actores.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_lista_actores.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_principal_ordinaria1_tb.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_principal_ordinaria1_tb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_monstruo2.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_monstruo2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_count_fragment.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_count_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_practicar_dragon_ball_detalles.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\practicar_dragon_ball_detalles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_sumadenumeros.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_sumadenumeros.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_numeroaleatorio_view_model.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_numeroaleatorio_view_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_presupuesto_a1.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_presupuesto_a1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_fragment_pinpon.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_fragment_pinpon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_actividad9.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_actividad9.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_utils.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_utils.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_atraccion_detalles.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\atraccion_detalles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destinos_adapter.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destinos_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\drawable_scissors.PNG.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\drawable\\scissors.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_propinatron.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_propinatron.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destino_view_model.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destino_view_model.xml"
+    },
+    {
+        "merged": "com.example.todosejercicios.app-merged_res-32:/layout_activity_destino2.xml.flat",
+        "source": "com.example.todosejercicios.app-main-34:/layout/activity_destino2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_dnitest.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_dnitest.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_bares.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_bares.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_examen1_tb.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_examen1_tb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_presupuesto_fragment.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_presupuesto_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_destino_api.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_destino_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_destinos.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_destinos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_cuadro_holder.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_cuadro_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_analisis_texto.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_analisis_texto.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_armamentos.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_armamentos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_elegir_ejercito.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_elegir_ejercito.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_armamento_holder.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_armamento_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_servicio_api_destinos.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_servicio_api_destinos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_helado_b.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_helado_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_bares_detalles.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\bares_detalles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_estadios.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_estadios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_row_comentarios.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\row_comentarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_examen2_tview_model.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_examen2_tview_model.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_main_peliculas.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\main_peliculas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_lista_estadios.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_lista_estadios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_ejercito_holder.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_ejercito_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_tmain_peliculas.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_tmain_peliculas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_contador_principal.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_contador_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_service_cryptomoneda.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_service_cryptomoneda.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_zoo.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_zoo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_presupuesto_a2.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_presupuesto_a2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_u2a1_adivinar_numero.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\u2a1_adivinar_numero.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_array_aleatorios.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_array_aleatorios.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio_inventado.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio_inventado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_analisis_texto_b.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_analisis_texto_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_main_bares.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\main_bares.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_pokemon.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_pokemon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_clase_recuperacion_zoo_holder.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\clase_recuperacion_zoo_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_main_destinos.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_main_destinos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_trow_peliculas.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\trow_peliculas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_examen_ord_cuadro_detalles_a2.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\examen_ord_cuadro_detalles_a2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_examen1_t.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_examen1_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio_inventado_fragment.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio_inventado_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\drawable_rock.PNG.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\drawable\\rock.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_citatron.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_citatron.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_fibonacci_b.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_fibonacci_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_pasajeros_fragment.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_pasajeros_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_crypto_api.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_crypto_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_fibonacci.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_fibonacci.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio1_examen2_t.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio1_examen2_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_u2a3_propinatron.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\u2a3_propinatron.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_ejercicio2_examen1_t.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_ejercicio2_examen1_t.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_practicar_dragon_ball.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\practicar_dragon_ball.xml"
+    },
+    {
+        "merged": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-merged_res-32:\\layout_activity_predict_examen_extraordinaria1_b.xml.flat",
+        "source": "C:\\Users\\Castillo\\.gradle\\daemon\\8.0\\com.example.todosejercicios.app-main-34:\\layout\\activity_predict_examen_extraordinaria1_b.xml"
+    }
+]

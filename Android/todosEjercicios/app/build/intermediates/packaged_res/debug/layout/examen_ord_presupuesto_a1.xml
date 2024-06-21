@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".u2.examenOrdinario.ejercicio1.a1Trimestre1">
+
+    <EditText
+        android:id="@+id/a1etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/a1etFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Fecha"
+        app:layout_constraintEnd_toEndOf="@+id/a1etNombre"
+        app:layout_constraintStart_toStartOf="@+id/a1etNombre"
+        app:layout_constraintTop_toBottomOf="@+id/a1etNombre" />
+
+    <EditText
+        android:id="@+id/a1etPresupuestoMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Presupuesto minimo"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/a1etFecha"
+        app:layout_constraintStart_toStartOf="@+id/a1etFecha"
+        app:layout_constraintTop_toBottomOf="@+id/a1btFecha" />
+
+    <EditText
+        android:id="@+id/a1etPresupuestoMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Presupuesto maximo"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/a1etPresupuestoMin"
+        app:layout_constraintStart_toStartOf="@+id/a1etPresupuestoMin"
+        app:layout_constraintTop_toBottomOf="@+id/a1etPresupuestoMin" />
+
+    <Button
+        android:id="@+id/a1btValidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Validar"
+        app:layout_constraintEnd_toEndOf="@+id/a1etPresupuestoMax"
+        app:layout_constraintStart_toStartOf="@+id/a1etPresupuestoMax"
+        app:layout_constraintTop_toBottomOf="@+id/a1tvError" />
+
+    <TextView
+        android:id="@+id/a1tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#E91E2F"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/a1etPresupuestoMax"
+        app:layout_constraintStart_toStartOf="@+id/a1etPresupuestoMax"
+        app:layout_constraintTop_toBottomOf="@+id/a1etPresupuestoMax" />
+
+    <Button
+        android:id="@+id/a1btFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#555555"
+        android:text="Selecciona una fecha"
+        app:layout_constraintEnd_toEndOf="@+id/a1etFecha"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/a1etFecha"
+        app:layout_constraintTop_toBottomOf="@+id/a1etFecha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
